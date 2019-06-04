@@ -10,7 +10,7 @@ main(int argc, char* argv[]){
     double det;
     printf("Enter the coefficients of polynomial\n");
     printf("Where the form of the polynomial is ax^2 + bx +c\n");
-    printf("Enter in form \"a\" \"b\" \"c\": ");
+    printf("Enter in form \"a\" \"b\" \"c\" (note: enter without quotation marks): ");
     scanf("%lf %lf %lf", &a, &b, &c);
     if(a ==0 && b == 0 && c == 0){
         printf("Invalid Function entered, please run program again.\n");
